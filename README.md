@@ -17,6 +17,9 @@ No dependencies required
 # Features
 - saving all your previous logged-in Wi-Fi SSIDs and passwords on a text file on your Desktop
 
+# Upcoming Features
+- make the tool cross-platform
+
 # Limitations
 - this tool works only on Windows systems that support netsh (network shell) utility
 
