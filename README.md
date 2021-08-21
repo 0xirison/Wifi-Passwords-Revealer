@@ -1,5 +1,5 @@
 # Introduction
-Wi-Fi Passwords Revealer, it is a simple CLI tool that shows all your previous logged-in Wi-Fi passwords on your Windows system.
+Wifi Passwords Revealer, it is a simple CLI tool that shows all your previous logged-in Wi-Fi passwords on your Windows system.
 
 # Installation
 ```
