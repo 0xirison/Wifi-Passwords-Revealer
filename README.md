@@ -21,6 +21,6 @@ No dependencies required
 - this tool works only on Windows systems that support netsh (network shell) utility
 
 # Screenshot
-![alt text](https://i.postimg.cc/JzSbjdcy/wifi-passwords-revelaer.png)
+![alt text](https://i.postimg.cc/tgV8zfK8/wifi-passwords-revealer.png)
 
 
