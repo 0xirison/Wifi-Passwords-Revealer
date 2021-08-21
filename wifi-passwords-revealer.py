@@ -50,7 +50,7 @@ GitHub: https://github.com/0xirison
         for key, values in wifi_dict.items():
             file.write(key +": " + values+"\r\n")
         file.close()
-        print("[+] All your previous logged in Wifi SSIDs and passwords are saved on your Desktop!")
+        print("[+] All your previous logged-in Wifi SSIDs and passwords are saved on your Desktop!")
     except:
         print("[-] Sorry, this windows system version does not support the used utility commands")
 
