@@ -28,7 +28,8 @@ Author: irison
 GitHub: https://github.com/0xirison
 *._.* __ _ ._ 
 |[  |_) (_)[ )
-==========================  """)
+==========================  
+""")
         wifi_list = []
         wifi_dict = {}
         show_wifi_command = subprocess.run('netsh wlan show profile ', shell=False, stdout=subprocess.PIPE)
