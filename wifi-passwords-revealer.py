@@ -29,14 +29,9 @@ Author: irison
 GitHub: https://github.com/0xirison
 *._.* __ _ ._ 
 |[  |_) (_)[ )
-<<<<<<< HEAD
 ========================== 
- """
-        )
-=======
-==========================  
 """)
->>>>>>> c92a651293690f14023c1af8ac50a5b9abbf5973
+ 
         wifi_list = []
         wifi_dict = {}
         show_wifi_command = subprocess.run(
@@ -73,13 +68,9 @@ GitHub: https://github.com/0xirison
         for key, values in wifi_dict.items():
             file.write(key + ": " + values + "\r\n")
         file.close()
-<<<<<<< HEAD
         print(
             "[+] All your previous logged-in Wifi SSIDs and passwords are saved on your Desktop!"
         )
-=======
-        print("[+] All your previous logged-in Wifi SSIDs and passwords are saved on your Desktop!")
->>>>>>> c92a651293690f14023c1af8ac50a5b9abbf5973
     except:
         print(
             "[-] Sorry, this windows system version does not support the used utility commands"
