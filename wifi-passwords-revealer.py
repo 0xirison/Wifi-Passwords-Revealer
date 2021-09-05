@@ -72,7 +72,7 @@ GitHub: https://github.com/0xirison
             "w",
         )
         for key, values in wifi_dict.items():
-            file.write(key + ": " + values + "\r\n")
+            file.write(key.replace("\"", "") + ": " + values + "\r\n")
         file.close()
         print(
             "[+] All your previous logged-in Wifi SSIDs and passwords are saved on your Desktop!"
