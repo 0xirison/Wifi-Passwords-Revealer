@@ -43,7 +43,7 @@ GitHub: https://github.com/0xirison
                 delim = ": "
                 ssid = line[line.index(delim) + len(delim):]
                 if " " in ssid:
-                    ssid = '"{}"'.format(ssid)
+                    ssid = "{}".format(ssid)
                     wifi_list.append(ssid)
                 else:
                     wifi_list.append(ssid)
