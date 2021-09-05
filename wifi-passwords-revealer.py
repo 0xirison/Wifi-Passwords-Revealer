@@ -79,7 +79,7 @@ GitHub: https://github.com/0xirison
         )
     except:
         print(
-            "[-] Sorry, this windows system version does not support the used utility commands"
+            "[-] Sorry, something went wrong with this windows system version"
         )
 
 else:
